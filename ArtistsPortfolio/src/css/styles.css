@@ -1,3 +1,7 @@
+h2{
+    text-transform: capitalize;
+}
+
 .banner-image{
     position: relative;
     height: 650px;
