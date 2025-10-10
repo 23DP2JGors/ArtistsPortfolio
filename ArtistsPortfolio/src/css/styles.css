@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+html {
+    font-family: Poppins, 'Segoui UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
 }
 
 body {
-    font-family: Arial, sans-serif;
     color: #2b2b2b;
     background-color: #FBE8A6;
 }
@@ -26,22 +29,48 @@ footer {
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
 }
 
 a {
     color: #F4976C;
 }
 
-.logo {
+aside {
+    width: 18%;
+    padding: 20px;
+    margin: 25px 0;
+    border-right:solid 2px #F4976C;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+    max-width: 60%;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.header-container li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 25px 0 25px; 
+}
+
+#sidebar ul li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#logo {
     color: #FFFFFF;
     font-size: 24px;
 }
 
-.container {
-    width: 55%;
-    margin: 0 auto;
-    padding: 0 20px;
+.main-content {
+    margin: 0 20px;
 }
 
 .banner {
@@ -69,9 +98,10 @@ a {
     text-align: center;
 }
 
-.profile-image {
+#profile-image {
     display: block;
     height: auto;
     max-width: 250px;
-    margin: 30px auto;
+    margin: 10px auto;
+    transform: translateX(-18%);
 }

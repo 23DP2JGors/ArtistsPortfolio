@@ -10,16 +10,51 @@
 
 <body>
     <header>
-        <div class="container">
-            <span class="logo">The Genius of Leonardo</span>
+        <div class="header-container">
+            <span id="logo">The Genius of Leonardo</span>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Art</a></li>
-                    <li><a href="#">Inventions</a></li>
-                    <li><a href="#">More</a></li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#e3e3e3">
+                                <path
+                                    d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                            </svg>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#e3e3e3">
+                                <path
+                                    d="M480-400q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400ZM320-240h320v-23q0-24-13-44t-36-30q-26-11-53.5-17t-57.5-6q-30 0-57.5 6T369-337q-23 10-36 30t-13 44v23ZM720-80H240q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80Zm0-80v-446L526-800H240v640h480Zm-480 0v-640 640Z" />
+                            </svg>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#e3e3e3">
+                                <path
+                                    d="m480-80-10-120h-10q-142 0-241-99t-99-241q0-142 99-241t241-99q71 0 132.5 26.5t108 73q46.5 46.5 73 108T800-540q0 75-24.5 144t-67 128q-42.5 59-101 107T480-80Zm80-146q71-60 115.5-140.5T720-540q0-109-75.5-184.5T460-800q-109 0-184.5 75.5T200-540q0 109 75.5 184.5T460-280h100v54Zm-101-95q17 0 29-12t12-29q0-17-12-29t-29-12q-17 0-29 12t-12 29q0 17 12 29t29 12Zm-29-127h60q0-30 6-42t38-44q18-18 30-39t12-45q0-51-34.5-76.5T460-720q-44 0-74 24.5T344-636l56 22q5-17 19-33.5t41-16.5q27 0 40.5 15t13.5 33q0 17-10 30.5T480-558q-35 30-42.5 47.5T430-448Zm30-65Z" />
+                            </svg>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#e3e3e3">
+                                <path d="M480-360 280-560h400L480-360Z" />
+                            </svg>
+                            <span>More</span>
+                        </a>
+                        <!-- <li><a href="#">Art</a></li>
+                    <li><a href="#">Inventions</a></li> -->
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -32,54 +67,49 @@
         </div>
     </div>
 
-    <main>
-        <div class="container">
+    <div class="container">
 
-            <img src="img/Leonardo_da_Vinci.jpg" alt="Leonardo da Vinci" class="profile-image">
+        <aside id="sidebar">
+            <h3>Explore More</h3>
+            <ul>
+                <li>Leonardo was ambidextrous, able to write with one hand and draw with the other simultaneously.
+                </li>
+                <li>He wrote his notes in mirror script, which can only be read correctly when reflected in a
+                    mirror.
+                </li>
+                <li>Leonardo was a vegetarian and had a deep love for animals, often buying caged birds just to set
+                    them
+                    free.</li>
+                <li>He had an extraordinary memory and could recall entire books and images in great detail.</li>
+                <li>Leonardo's "Mona Lisa" has no eyebrows; it was common during the Renaissance to shave them off.
+                </li>
+            </ul>
+        </aside>
 
-            <div>
-                <h2>A master of many arts</h2>
-                <p>Leonardo da Vinci was not just a painter — he was a sculptor, architect,
-                    musician, scientist, mathematician, engineer, inventor, and writer. His
-                    masterpieces like the Mona Lisa and The Last Supper remain among the most
-                    famous paintings in history. Da Vinci's unique ability to blend art with
-                    science created works that continue to inspire millions around the world.</p>
+
+        <main>
+            <div class="main-content">
+
+                <img src="img/Leonardo_da_Vinci.jpg" alt="Leonardo da Vinci" id="profile-image">
+
+                <div>
+                    <h2>A master of many arts</h2>
+                    <p>Leonardo da Vinci was not just a painter — he was a sculptor, architect,
+                        musician, scientist, mathematician, engineer, inventor, and writer. His
+                        masterpieces like the Mona Lisa and The Last Supper remain among the most
+                        famous paintings in history. Da Vinci's unique ability to blend art with
+                        science created works that continue to inspire millions around the world.</p>
+                </div>
+                <div>
+                    <h2>Inventor ahead of his time</h2>
+                    <p>Leonardo's notebooks reveal thousands of pages filled with sketches and
+                        ideas for inventions that were centuries ahead of their time. He designed
+                        flying machines, armored vehicles, submarines, and parachutes long before
+                        technology could make them real. His curious mind never stopped exploring,
+                        making him one of history's greatest visionaries and innovators.</p>
+                </div>
             </div>
-            <div>
-                <h2>Inventor ahead of his time</h2>
-                <p>Leonardo's notebooks reveal thousands of pages filled with sketches and
-                    ideas for inventions that were centuries ahead of their time. He designed
-                    flying machines, armored vehicles, submarines, and parachutes long before
-                    technology could make them real. His curious mind never stopped exploring,
-                    making him one of history's greatest visionaries and innovators.</p>
-            </div>
-        </div>
-    </main>
-
-    <aside>
-        <h2>Fun Facts about Leonardo da Vinci</h2>
-        <ul>
-            <li>Leonardo was ambidextrous, able to write with one hand and draw with the other simultaneously.</li>
-            <li>He wrote his notes in mirror script, which can only be read correctly when reflected in a mirror.</li>
-            <li>Leonardo was a vegetarian and had a deep love for animals, often buying caged birds just to set them
-                free.</li>
-            <li>He had an extraordinary memory and could recall entire books and images in great detail.</li>
-            <li>Leonardo's "Mona Lisa" has no eyebrows; it was common during the Renaissance to shave them off.</li>
-        </ul>
-    </aside>
-
-    <footer>
-        <p>&copy; 2024 Leonardo da Vinci Portfolio. All rights reserved.</p>
-
-        <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
-        </div>
-    </footer>
-
-
-    <!-- <h2>Discover Leonardo da Vinci</h2>
+            <!-- <h2>Discover Leonardo da Vinci</h2>
         <p>Explore the life, art, and inventions of one of history's greatest geniuses.</p>
 
         <div class="cards-container">
@@ -87,7 +117,27 @@
                 
             </div>
         </div> -->
+        </main>
+    </div>
 
+    <footer>
+        <p>&copy; 2024 Leonardo da Vinci Portfolio. All rights reserved.</p>
+
+        <div class="social-media">
+            <a href="#">
+                <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/></svg>
+                <span>Facebook</span>
+            </a>
+            <a href="#">
+                <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M24.92 12.183c0-1.586-.604-2.864-1.585-3.83.172-.547.398-1.763-.229-3.321 0 0-1.114-.348-3.628 1.315a12.695 12.695 0 0 0-3.081-.366c-1.154 0-2.322.143-3.409.44-2.596-1.747-3.74-1.391-3.74-1.391-.748 1.847-.287 3.215-.145 3.554-.883.936-1.414 2.133-1.414 3.594 0 1.111.128 2.099.44 2.964l.325.732c.879 1.614 2.606 2.655 5.677 2.983-.434.289-.885.779-1.062 1.612-.594.28-2.475.966-3.603-.944 0 0-.633-1.148-1.842-1.235 0 0-1.174-.017-.08.722 0 0 .782.367 1.326 1.738 0 0 .705 2.342 4.114 1.593v2.417s-.076.857-.867 1.143c0 0-.469.312.034.497 0 0 2.205.174 2.205-1.604v-2.643s-.09-1.047.429-1.404v4.332s-.032 1.031-.576 1.421c0 0-.362.646.433.468 0 0 1.517-.211 1.584-1.967l.035-4.383h.363l.033 4.383c.076 1.748 1.59 1.967 1.59 1.967.793.179.429-.468.429-.468-.54-.389-.579-1.421-.579-1.421v-4.297c.52.402.436 1.369.436 1.369v2.643c0 1.777 2.2 1.604 2.2 1.604.505-.186.036-.498.036-.498-.793-.286-.867-1.143-.867-1.143v-3.461c0-1.346-.574-2.056-1.137-2.435 3.277-.318 4.845-1.368 5.572-2.99-.015.027.26-.726.26-.726.25-.859.325-1.855.325-2.963h-.002z"/></svg>
+                <span>Github</span>
+            </a>
+            <a href="#">
+                <svg fill="#000000" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/></svg>
+                <span>Instagram</span>
+            </a>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
