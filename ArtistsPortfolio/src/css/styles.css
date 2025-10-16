@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -22,6 +23,13 @@ header {
     color: #FFFFFF;
     padding: 10px 0;
     text-align: center;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 footer {
