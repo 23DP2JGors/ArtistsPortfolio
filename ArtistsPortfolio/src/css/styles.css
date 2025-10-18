@@ -111,5 +111,9 @@ main{
     height: auto;
     max-width: 250px;
     margin: 10px auto;
-    transform: translateX(-18%);
+}
+
+.discover__item img{
+    max-width: 350px;
+    height: auto;
 }
