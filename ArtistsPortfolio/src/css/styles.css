@@ -17,6 +17,7 @@ body {
 }
 
 /* Dark Mode */
+/* Dark Mode */
 body.dark-mode {
     background: linear-gradient(to bottom, #1a1a2e, #16213e);
     color: #e0e0e0;
@@ -34,11 +35,11 @@ body.dark-mode main {
 }
 
 body.dark-mode .discover__item {
-    background-color: #1a1a2e;
+    background: linear-gradient(135deg, #1a2332, #0f1a28);
 }
 
 body.dark-mode .discover__item:hover {
-    background-color: #0f3460;
+    background: linear-gradient(135deg, #1f2937, #152030);
 }
 
 body.dark-mode h2,
@@ -47,14 +48,24 @@ body.dark-mode .discover__title {
     color: #B4DFE5;
 }
 
-body.dark-mode .discover__descr,
-body.dark-mode .discover__item h3 {
-    color: #e0e0e0;
+body.dark-mode .discover__descr {
+    color: #c0c0c0;
 }
 
-body.dark-mode .discover__subtitle,
+body.dark-mode .discover__item h3 {
+    color: #B4DFE5;
+}
+
+body.dark-mode .discover__subtitle {
+    color: #a0a0a0;
+}
+
 body.dark-mode aside ul li {
-    color: #b0b0b0;
+    color: #c0c0c0;
+}
+
+body.dark-mode p {
+    color: #c0c0c0;
 }
 
 /* Header */
