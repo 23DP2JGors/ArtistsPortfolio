@@ -2,7 +2,7 @@
 
 A modern, responsive website dedicated to the life, art, and inventions of Leonardo da Vinci. This project showcases interactive cards, dark mode, dropdown navigation, and modal windows.
 
-## 🎨 Features
+## Features
 
 - **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
 - **Dark Mode** - Toggle between light and dark themes
@@ -12,14 +12,14 @@ A modern, responsive website dedicated to the life, art, and inventions of Leona
 - **Sticky Sidebar** - Side panel follows you as you scroll
 - **Hamburger Menu** - Mobile-friendly navigation
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Gradients, Animations, Media Queries)
 - Vanilla JavaScript
 - Google Fonts (Poppins)
 
-## 🎯 Key Sections
+## Key Sections
 
 1. **Header** - Navigation with dropdown menu and dark mode toggle
 2. **Hero Banner** - Eye-catching banner with Da Vinci's Vitruvian Man
@@ -31,7 +31,7 @@ A modern, responsive website dedicated to the life, art, and inventions of Leona
    - Anatomical Studies
 6. **Footer** - Social media links
 
-## 🎨 Color Palette
+## Color Palette
 
 | Element | Color | Usage |
 |---------|-------|-------|
@@ -42,7 +42,7 @@ A modern, responsive website dedicated to the life, art, and inventions of Leona
 | Accent/Buttons | `#F4976C` | Orange |
 | Hover | `#E07A4F` | Darker orange |
 
-## ✨ CSS Features
+## CSS Features
 
 - **Flexbox Layout** - For responsive card arrangement
 - **CSS Gradients** - On buttons and cards
@@ -50,22 +50,22 @@ A modern, responsive website dedicated to the life, art, and inventions of Leona
 - **Transitions** - All interactive elements
 - **Media Queries** - Mobile responsiveness
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone or download the repository
 2. Open `index.html` in your browser
 3. Enjoy exploring Leonardo da Vinci's legacy!
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Desktop**: > 768px
 - **Mobile/Tablet**: ≤ 768px
 
-## 🌙 Dark Mode
+## Dark Mode
 
 Click the "🌙 Dark Mode" button in the header to toggle between light and dark themes. The preference is not saved between sessions.
 
-## 🔮 Interactive Features
+## Interactive Features
 
 ### Dropdown Menu
 - Hover over "More" in navigation to reveal additional links
