@@ -80,19 +80,6 @@ Click the "🌙 Dark Mode" button in the header to toggle between light and dark
 - Appears on mobile devices (≤ 768px)
 - Click to expand/collapse navigation
 
-## 📝 Assignment Requirements Completed
-
-✅ Horizontal navigation with hover effects  
-✅ Three styled cards with images, titles, descriptions, and buttons  
-✅ Hover effects on cards (transform, shadow, color changes)  
-✅ CSS transitions for smooth animations  
-✅ Keyframe animations for enhanced effects  
-✅ Dropdown menu functionality  
-✅ Modal windows for detailed content  
-✅ Gradient backgrounds on buttons and cards  
-✅ Responsive hamburger menu  
-✅ Dark mode implementation  
-
 ---
 
 *"Learning never exhausts the mind." - Leonardo da Vinci*
